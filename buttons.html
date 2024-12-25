@@ -2,18 +2,20 @@
   /* 
   Terminology: css selector, inside is css property: css value 
   Margin - Spacing between elements
+  Box Model - Padding, Border and Margin (element positioning on webpage)
   */
 
   .subscribe-btn {
-    background-color: rgb(182, 0, 0); 
+    background-color: rgb(204, 0, 0); 
     color: white;
     border:none;
-    height: 35px;
-    width: 105px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 5px;
     transition: opacity 0.2s;
+    vertical-align: top;
+    margin: 0px 0px 8px 8px;
+    padding: 6px 10px 6px 10px;
   }
 
   /* PseudoClass - condition-case where styling is applied such as hover */
@@ -27,20 +29,21 @@
 
   .join-btn {
     background-color: white;
-    border-color: rgb(53, 53, 204);
+    border-color: rgb(6, 95, 212);
+    color: rgb(6, 95, 212);
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
-    color: rgb(53, 53, 204);
-    height: 35px;
-    width: 60px;
     cursor: pointer;
     margin-right: 5px;
     transition: background-color 0.4s, color 0.4s;
+    vertical-align: top;
+    margin: 0px 0px 8px 8px;
+    padding: 5px 10px 5px 10px;
   }
 
 .join-btn:hover {
-  background-color: rgb(53, 53, 204);
+  background-color: rgb(6, 95, 212);
   color: white;
 }
 
@@ -49,16 +52,17 @@
 }
 
   .tweet-btn {
-    background-color: rgb(100, 100, 235);
+    background-color: rgb(29, 155, 240);
     border: none;
     color: white;
     font-weight: bold;
     font-size: 15px;
-    height: 35px;
-    width: 77px;
     border-radius: 16px;
     cursor: pointer;
     transition: box-shadow 0.3s;
+    vertical-align: top;
+    margin: 0px 0px 8px 8px;
+    padding: 5px 10px 5px 10px;
   }
 
   .tweet-btn:hover {
