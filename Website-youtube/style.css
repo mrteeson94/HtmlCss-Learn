@@ -6,30 +6,6 @@ p {
   display: block;
 }
 
-.video-preview {
-  display: inline-block;
-  width: 300px;
-  border-style: solid;
-  border-color: black;
-  vertical-align: top;
-  margin-right: 5px;
-}
-
-
-.profile-pic-col {
-  vertical-align: top;
-  display: inline-block;
-  width: 45px;
-}
-
-.video-info-col {
-  vertical-align: top;
-  display: inline-block;
-  width: 250px;
-}
-
-
-
 .searchbox {
   font-size: small;
   border-radius: 4px;
@@ -40,9 +16,31 @@ p {
   display: block;
 }
 
+.video-preview {
+  display: inline-block;
+  width: 300px;
+  border-style: solid;
+  border-color: black;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
 .thumbnail {
   width: 100%;
   border: none;
+}
+
+.video-detail-row {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-pic-col {
+  width: 45px;
+}
+
+.video-info-col {
+  width: 250px;
 }
 
 .video-title {

@@ -5,19 +5,27 @@
   <style>
     .grid {
       display: grid;
-      grid-template-columns:  150px 150px;
+      grid-template-columns:  1fr 1fr 1fr;
+      column-gap: 10px;
+      row-gap: 5px;
+      margin-top: 10px;
     }
     .col-1 {
       background-color: red;
+      height: 200px;
+
     }
 
     .col-2 {
       background-color: blue;
+      height: 200px;
+
     }
 
     .col-3 {
-      background-color: black;
-      color: aliceblue;
+      background-color: red;
+      height: 200px;
+
     }
   </style>
 </head>
@@ -27,6 +35,10 @@
     <div class="col-1">1st Column</div>
     <div class="col-2">2nd Column</div>
     <div class="col-3">3rd column</div>
+
+    <div class="col-2">1st Column</div>
+    <div class="col-1">2nd Column</div>
+    <div class="col-2">3rd column</div>
   </div>
 </body>
 
