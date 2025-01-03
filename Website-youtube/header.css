@@ -1,0 +1,43 @@
+.youtube-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 56px;
+
+}
+
+.left-section {
+  background-color: rgba(185, 67, 67, 0.986);
+  width: 150px;
+}
+
+.mid-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(181, 146, 214);
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 15px;
+  max-width: 400px;
+
+
+}
+
+.right-section {
+  background-color: rgb(199, 93, 93);
+  width: 200px;
+}
+
+
+.searchbox {
+  font-size: small;
+  border-radius: 4px;
+  width: 300px;
+  max-width: 400px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+}
