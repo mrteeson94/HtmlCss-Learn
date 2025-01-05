@@ -1,0 +1,21 @@
+.nav-bar {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  width: 72px;
+  bottom: 0;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+
+ .icon-nav-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}

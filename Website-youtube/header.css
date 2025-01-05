@@ -1,10 +1,14 @@
 .youtube-header {
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
   height: 56px;
-
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .left-section {
