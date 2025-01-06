@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 90px;
+  padding-left: 96px;
+  padding-right: 20px;
   height: 2000px;
   background-color: rgb(249, 249, 249)
 }

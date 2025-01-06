@@ -18,16 +18,17 @@
   background-color: black;
   color: white;
   position: absolute;
-  bottom: 10px;
+  bottom: 18px;
   right: 5px;
   display: block;
-  padding: 4px;
+  padding: 4px 4px;
   border-radius: 2px;
 }
 
 .thumbnail {
   width: 100%;
   border: none;
+  margin-bottom: 10px;
 }
 
 .thumbnail-row {
@@ -48,10 +49,10 @@
 }
 
 .video-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .video-author {
@@ -65,6 +66,6 @@
 .profile-pic {
   display: block;
   border-radius: 100%;
-  width: 40px;
+  width: 38px;
 }
 
