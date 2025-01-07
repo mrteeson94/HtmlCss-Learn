@@ -130,6 +130,13 @@
   height: 25px;
 }
 
+.navbar-icon:hover, 
+.notify-count,
+.hamburger-menu,
+.youtube-icon {
+  cursor: pointer;
+}
+
 .upload-container {
   display: flex;
   align-items: center;
